@@ -1,7 +1,7 @@
 [
     {
         "id": "plan_basic_001",
-        "color": "green",
+        "color": "red",
         "name": "Basic",
         "price": "$29/month",
         "info": "Perfect for beginners who want access to core gym facilities.",
@@ -14,7 +14,7 @@
     },
     {
         "id": "plan_standard_002",
-        "color": "red",
+        "color": "tomato",
         "name": "Standard",
         "price": "$49/month",
         "info": "A balanced plan with group classes and extended benefits.",
@@ -27,7 +27,7 @@
     },
     {
         "id": "plan_premium_003",
-        "color": "tomato",
+        "color": "red",
         "name": "Premium",
         "price": "$79/month",
         "info": "Best for fitness enthusiasts who want full access and perks.",
