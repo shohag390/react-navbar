@@ -10,7 +10,7 @@ const PricingOption = ({ fetchData }) => {
             {pricingData?.map((item) => (
                 <div style={{
                     borderColor: `${item?.color}`
-                }} className='w-full flex flex-col text-center items-center bg-[#06013d] text-[#fff] md:p-[30px] p-[20px] rounded-2xl border-b-[8px]' key={item?.id}>
+                }} className='w-full flex flex-col text-center items-center bg-[#ff5733] text-[#fff] md:p-[30px] p-[20px] rounded-2xl border-b-[8px] border-t-[8px] shadow-md' key={item?.id}>
                     <h4 className='font-bold text-[20px] uppercase leading-[30px] pb-[20px]'>{item?.name}</h4>
                     <div className='flex flex-col gap-[8px] pb-[20px]'>
                         <p>{item?.features[0]}</p>
